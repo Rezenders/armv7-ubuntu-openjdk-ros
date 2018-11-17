@@ -1,4 +1,4 @@
-FROM balenalib/armv7hf-ubuntu-openjdk:11-latest
+FROM balenalib/beaglebone-black-ubuntu-openjdk:8-jdk-bionic-build
 
 RUN echo 'Etc/UTC' > /etc/timezone && \
     ln -s /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
